@@ -54,7 +54,7 @@ body {
 
 .title {
     font-family: 'Pacifico', cursive; 
-    font-size: 1.9em;
+    font-size: 1.7em;
     margin-bottom: 20px;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -208,7 +208,7 @@ h1:hover {
 
 @media (max-width: 600px) {
     .card {
-        width: 80%; 
+        width: 70%; 
         padding: 20px; 
     }
 
