@@ -53,8 +53,6 @@ function toggleMessage() {
 
 document.getElementById('message').style.display = 'none';
 
-document.getElementById('message').style.display = 'none';
-
 function showLoadingScreen() {
     const loadingScreen = document.getElementById('loading-screen');
     loadingScreen.style.display = 'flex'; 
@@ -94,7 +92,6 @@ function toggleMessage() {
 
         setTimeout(() => {
             letterSound.play();
-           
             setInterval(createRandomFirework, 500); 
         }, 2000);
     } else {
@@ -170,6 +167,8 @@ function updateParticles() {
     }
 }
 
+let animationId; 
+
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -190,8 +189,15 @@ function draw() {
     updateFireworks();
     updateParticles();
 
-    requestAnimationFrame(draw);
+    animationId = requestAnimationFrame(draw);
 }
 
-draw();
+document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+        cancelAnimationFrame(animationId); 
+    } else {
+        draw(); 
+    }
+});
 
+draw();
