@@ -1,6 +1,4 @@
-Dưới đây là một phiên bản Markdown chi tiết và đẹp hơn cho thiệp chúc mừng 20-10 của bạn, bao gồm cấu trúc rõ ràng và một số cải tiến về hình thức:
 
-```markdown
 # 🎉 Thiệp Chúc Mừng 20-10 🎉
 
 ## 📜 Giới thiệu
