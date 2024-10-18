@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', 'Roboto', sans-serif;
     background: url('../img/bg.png') no-repeat center center/cover; 
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .message-text {
-    font-family: 'Arail', cursive; 
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2em;
     line-height: 1.5;
     margin: 10px 0;
