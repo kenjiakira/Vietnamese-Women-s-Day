@@ -21,17 +21,23 @@ card.addEventListener('touchend', () => {
 });
 
 function shareFacebook() {
-    const url = window.location.href;
-    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
-    window.open(shareUrl, '_blank');
-}
+            const url = window.location.href;
+            const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+            window.open(shareUrl, '_blank');
+        }
 
-function shareTwitter() {
-    const text = "Chúc mừng ngày Phụ nữ Việt Nam 20/10! Cùng lan tỏa yêu thương 💐";
-    const url = window.location.href;
-    const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-    window.open(shareUrl, '_blank');
-}
+        function shareTwitter() {
+            const text = "Chúc mừng ngày Phụ nữ Việt Nam 20-10! Cùng lan tỏa yêu thương.";
+            const url = window.location.href;
+            const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+            window.open(shareUrl, '_blank');
+        }
+
+        function shareMessenger() {
+            const url = window.location.href;
+            const shareUrl = `fb-messenger://share/?link=${encodeURIComponent(url)}`;
+            window.open(shareUrl, '_blank');
+        }
 
 function toggleMessage() {
     const message = document.getElementById('message');
