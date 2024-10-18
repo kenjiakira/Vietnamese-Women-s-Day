@@ -10,7 +10,7 @@ Dự án này là một **ứng dụng web** tạo thiệp chúc mừng cho **Ng
 - **Hiệu ứng bắn pháo hoa** ngẫu nhiên khi mở thư.
 - **Âm thanh** phát ra khi bắn pháo hoa.
 - **Giao diện thân thiện** và dễ sử dụng.
-- **Chia sẻ thiệp** qua Facebook và Twitter.
+- **Chia sẻ thiệp** qua Facebook , Twitter vsf Messenger.
 
 ---
 
@@ -53,9 +53,4 @@ npx http-server
 ## 📱 Hướng dẫn sử dụng
 1. Mở ứng dụng trong trình duyệt.
 2. Nhấn nút "Mở thư" để xem lời chúc và hiệu ứng bắn pháo hoa.
-3. Chia sẻ thiệp qua Facebook hoặc Twitter để lan tỏa thông điệp yêu thương!
-
----
-
-## 🎊 Kết luận
-Ứng dụng này không chỉ là một thiệp chúc mừng mà còn là một trải nghiệm thú vị cho người dùng. Hy vọng bạn sẽ thích và chia sẻ nó với mọi người. Chúc bạn có một Ngày Phụ Nữ Việt Nam thật vui vẻ và ý nghĩa! 💐
+3. Chia sẻ thiệp qua Facebook , Twitter , Messenger để lan tỏa thông điệp yêu thương!
