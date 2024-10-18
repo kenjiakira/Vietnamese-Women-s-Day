@@ -19,4 +19,4 @@ Dự án này là một ứng dụng web tạo thiệp chúc mừng cho Ngày Ph
 Tải mã nguồn của dự án này về máy tính của bạn. Bạn có thể sử dụng lệnh `git clone` nếu bạn đã cài đặt Git:
 
 ```bash
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/kenjiakira/Vietnamese-Women-s-Day.git
